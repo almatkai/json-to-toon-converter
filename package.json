@@ -3,7 +3,7 @@
   "name": "json-to-toon-converter",
   "title": "JSON to TOON Converter",
   "description": "Convert JSON data into TOON format instantly.",
-  "icon": "extension-icon.png",
+  "icon": "assets/extension-icon.png",
   "author": "almatkai",
   "platforms": [
     "macOS",
