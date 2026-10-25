@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 2,
+  "id": "com.tezbar.native.json-to-toon-converter",
+  "slug": "json-to-toon-converter",
+  "name": "JSON to TOON Converter",
+  "version": "0.1.0",
+  "description": "Convert JSON data into TOON format instantly. Original Raycast extension by meshal; native adaptation by Tezbar.",
+  "icon": "/extensions/icons/json-to-toon-converter.png",
+  "runtime": "rust",
+  "replaces": [
+    "raycast.json-to-toon-converter"
+  ],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "preferences": [
+    {
+      "name": "defaultAction",
+      "type": "dropdown",
+      "required": false,
+      "title": "Default Action",
+      "description": "Choose whether to copy the result or paste it to the active application by default.",
+      "default": "copy",
+      "data": [
+        {
+          "title": "Copy to Clipboard",
+          "value": "copy"
+        },
+        {
+          "title": "Paste to Active App",
+          "value": "paste"
+        }
+      ]
+    },
+    {
+      "name": "inputSource",
+      "type": "dropdown",
+      "required": false,
+      "title": "Input Source",
+      "description": "Choose whether to try selected text first or always use clipboard.",
+      "default": "auto",
+      "data": [
+        {
+          "title": "Auto (Selection then Clipboard)",
+          "value": "auto"
+        },
+        {
+          "title": "Clipboard Only",
+          "value": "clipboard"
+        }
+      ]
+    }
+  ],
+  "commands": [
+    {
+      "name": "convert-json",
+      "title": "Convert JSON",
+      "description": "Convert JSON to TOON format",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "mode": "no-view"
+    }
+  ],
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run"
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run"
+    }
+  ]
+}

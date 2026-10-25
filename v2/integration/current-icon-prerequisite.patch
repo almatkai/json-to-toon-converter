@@ -1,0 +1,10 @@
+--- a/src/renderer/extensionImages.ts
++++ b/src/renderer/extensionImages.ts
+@@ -3,6 +3,7 @@
+ const imageObjectUrls = new Map<string, string>()
+ 
+ export function extensionImageSource(value: string): string {
++  if (value === "/extensions/icons/json-to-toon-converter.png") return value
+   if (/^(https?:|data:|file:|blob:)/i.test(value)) return value
+   if (value.startsWith('/')) return `file://${encodeURI(value)}`
+   return value

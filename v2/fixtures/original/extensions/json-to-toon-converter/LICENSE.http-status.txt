@@ -1,0 +1,2 @@
+404
+https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/json-to-toon-converter/LICENSE

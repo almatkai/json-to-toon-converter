@@ -1,0 +1,11 @@
+--- a/src/renderer/src/raycast-api/index.tsx
++++ b/src/renderer/src/raycast-api/index.tsx
+@@ -179,7 +179,7 @@
+               root={root}
+               title={title}
+               onBack={onSurfaceBack}
+-              onRunPrimaryAction={onRunPrimaryAction}
++              onRunPrimaryAction={() => onRunPrimaryAction()}
+               onOpenActions={openActions}
+             />
+           ) : (

@@ -1,0 +1,354 @@
+[
+  {
+    "input": {},
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "read"
+      ],
+      [
+        "hud",
+        "No JSON found - selection and clipboard are empty"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "1"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "copy",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "invalid",
+      "clipboard": "1"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "log-error"
+      ],
+      [
+        "toast",
+        {
+          "style": "failure",
+          "title": "Conversion Failed",
+          "message": "Unexpected token 'i', \"invalid\" is not valid JSON"
+        }
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": " ﻿",
+      "clipboard": "{\"x\":1}"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "read"
+      ],
+      [
+        "copy",
+        "x: 1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "fail": "selection",
+      "clipboard": "1"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "read"
+      ],
+      [
+        "copy",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "fail": "read"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "read"
+      ],
+      [
+        "log-error"
+      ],
+      [
+        "toast",
+        {
+          "style": "failure",
+          "title": "Conversion Failed",
+          "message": "private-secret"
+        }
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "1",
+      "fail": "copy"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "copy",
+        "1"
+      ],
+      [
+        "log-error"
+      ],
+      [
+        "toast",
+        {
+          "style": "failure",
+          "title": "Conversion Failed",
+          "message": "private-secret"
+        }
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "1",
+      "fail": "hud"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "copy",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ],
+      [
+        "log-error"
+      ],
+      [
+        "toast",
+        {
+          "style": "failure",
+          "title": "Conversion Failed",
+          "message": "private-secret"
+        }
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "1",
+      "preferences": {
+        "defaultAction": "paste",
+        "inputSource": "auto"
+      }
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "paste",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format pasted to active app"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "1",
+      "preferences": {
+        "defaultAction": true,
+        "inputSource": "auto"
+      }
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "paste",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format pasted to active app"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "clipboard": "1",
+      "preferences": {}
+    },
+    "events": [
+      [
+        "read"
+      ],
+      [
+        "paste",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format pasted to active app"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "clipboard": "1",
+      "preferences": {
+        "defaultAction": "copy",
+        "inputSource": "clipboard"
+      }
+    },
+    "events": [
+      [
+        "read"
+      ],
+      [
+        "copy",
+        "1"
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "1",
+      "preferences": {
+        "defaultAction": "paste",
+        "inputSource": "auto"
+      },
+      "fail": "paste"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "paste",
+        "1"
+      ],
+      [
+        "log-error"
+      ],
+      [
+        "toast",
+        {
+          "style": "failure",
+          "title": "Conversion Failed",
+          "message": "private-secret"
+        }
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "{}"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "copy",
+        ""
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "\"\""
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "copy",
+        "\"\""
+      ],
+      [
+        "hud",
+        "Converted! TOON format copied to clipboard"
+      ]
+    ]
+  },
+  {
+    "input": {
+      "selected": "",
+      "clipboard": "1"
+    },
+    "events": [
+      [
+        "selection"
+      ],
+      [
+        "log-error"
+      ],
+      [
+        "toast",
+        {
+          "style": "failure",
+          "title": "Conversion Failed",
+          "message": "Unexpected token '', \"\" is not valid JSON"
+        }
+      ]
+    ]
+  }
+]
