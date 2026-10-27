@@ -1,0 +1,15 @@
+[package]
+name = "tezbar-json-to-toon-native"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+repository = "https://github.com/almatkai/json-to-toon-converter"
+description = "Offline JSON.parse-compatible bounded TOON 1.3.0 port"
+include = ["/src/**", "/tests/**", "/adapter.rs", "/Cargo.toml", "/Cargo.lock", "/manifest.json", "/assets/**", "/fixtures/**", "/integration/**", "/tools/**", "/harness/Cargo.toml.in", "/harness/Cargo.lock", "/harness/src/**", "/harness/tests.rs", "/harness/tauri-stub/Cargo.toml.in", "/harness/tauri-stub/src/**", "/README.md", "/NOTICES.md", "/LICENSE", "/INDEX.json"]
+
+[dependencies]
+serde_json = "=1.0.145"
+ryu-js = "=1.0.2"
+
+[dev-dependencies]

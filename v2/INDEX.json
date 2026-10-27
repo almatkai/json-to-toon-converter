@@ -1,0 +1,714 @@
+{
+  "format": 1,
+  "note": "SHA256/SRI cover exact bytes; this is an evidence index, not a migration ledger. Rehash after staging.",
+  "files": [
+    {
+      "path": "fixtures/beta/LICENSE",
+      "size": 10750,
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf",
+      "sri": "sha256-DtaxsnYClNSqqkW+OOFm/MAWjh3VGQQjwJb8vhyUr78=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:LICENSE"
+    },
+    {
+      "path": "fixtures/beta/docs/NATIVE_V2_FORMAT.md",
+      "size": 2593,
+      "sha256": "8bf9315ad047326dd6737587ca5491fc35faf5e3f92a2d9c63f596be0c8f7b7a",
+      "sri": "sha256-i/kxWtBHMm3Wc3WHylSR/DX69eP5Ki2cY/WWvgyPe3o=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:docs/NATIVE_V2_FORMAT.md"
+    },
+    {
+      "path": "fixtures/beta/schemas/extension-v2.schema.json",
+      "size": 2420,
+      "sha256": "6d5afda1b652605982104bdf16d1547547b98dfd707a7b2969316406c49f32af",
+      "sri": "sha256-bVr9obZSYFmCEEvfFtFUdUe5jf1wenspaTFkBsSfMq8=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:schemas/extension-v2.schema.json"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/ExtensionRuntimeView.tsx",
+      "size": 23694,
+      "sha256": "cfe15d50c89b0e57666604fea06327c3bd564ee2644404676a233149a025395d",
+      "sri": "sha256-z+FdUMibDldmZgT+oGMnw71WTuJkRARnaiMxSaAlOV0=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/ExtensionRuntimeView.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-overlay.tsx",
+      "size": 2915,
+      "sha256": "3eb4a59db0de59460ea8a2c7f4a1f6ec5b514a512f49352bf373db64ed58d604",
+      "sri": "sha256-PrSlnbDeWUYOqKLH9KH27FtRSlEvSTUr83PbZO1Y1gQ=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/action-runtime-overlay.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime-registry.tsx",
+      "size": 692,
+      "sha256": "ffbad6f70410c6d2dcf4af217abe4ab297d69c0cae2c993263c008a423175e16",
+      "sri": "sha256-/7rW9wQQxtLc9K8her5KspfWnAyuLJkyY8AIpCMXXhY=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/action-runtime-registry.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/action-runtime.tsx",
+      "size": 391,
+      "sha256": "6e7a41e3d1a7ee2028103683f08fb8ed20e4b2e5751e182afe9f8e189522a28b",
+      "sri": "sha256-bnpB49Gn7iAoEDaD8I+47SDksuV1Hhgq/p+OGJUioos=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/action-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/detail-runtime.tsx",
+      "size": 23478,
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+      "sri": "sha256-Mu7LUIkeDygr09eNijgZPsJFQL9ww/3I5DodNoyX1Uw=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/detail-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/form-runtime.tsx",
+      "size": 21087,
+      "sha256": "8568d0ac5be03eea97d0def38067dbbbdce5ae97c36a51024857ef20dce299a6",
+      "sri": "sha256-hWjQrFvgPuqX0N7zgGfbu9zlrpfDalECSFfvINzimaY=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/form-runtime.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/renderer/src/raycast-api/index.tsx",
+      "size": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "sri": "sha256-f8hBOnK5Lo+IsJOc2T+RYkAY/gdluqHnGzi4b4zHemQ=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/renderer/src/raycast-api/index.tsx"
+    },
+    {
+      "path": "fixtures/beta/src/shared/extensionRuntime.ts",
+      "size": 3838,
+      "sha256": "837b804856baa6b16ebda080920af456268fefcffa7a1c3e2964b95d697ee387",
+      "sri": "sha256-g3uASFa6prFuvaCAkgr0ViaP78/6ehw+KWS5XWl+44c=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src/shared/extensionRuntime.ts"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/Cargo.toml.fixture",
+      "size": 2141,
+      "sha256": "98b2ca2dd131ec4ca8a9dc9d5c41a7fd2c25a3079f58813e051a1b9761849b0c",
+      "sri": "sha256-mLLKLdEx7EyoqdydXEGn/SwlowefWIE+BRobl2GEmww=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/Cargo.toml"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/common.rs",
+      "size": 7627,
+      "sha256": "280a0a2f0dd04a8570b320aafc0c3ece0f5de8ddb21c363645567d6a35d84da7",
+      "sri": "sha256-KAoKLw3QSoVwsyCq/Aw+zg9d6N2yHDY2RVZ9ajXYTac=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/common.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/catalog.rs",
+      "size": 16322,
+      "sha256": "6f1a3f6e65a581a01c08208aae46e77bf60ee97c87bdec98cc0edc7ddbfb6b60",
+      "sri": "sha256-bxo/bmWlgaAcCCCKrkbne/YO6XyHveyYzA7cfdv7a2A=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/catalog.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/loved_extensions.json",
+      "size": 93772,
+      "sha256": "f30e521b2c1b196301d81502478732d506a50ed975a54f179ed077a687ca5537",
+      "sri": "sha256-8w5SGywbGWMB2BUCR4cy1QalDtl1pU8XntB3pofKVTc=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/loved_extensions.json"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/mod.rs",
+      "size": 6248,
+      "sha256": "73c3625fdaadb944431191294dbfaa4f38a878faa03f15a917863be9c311e04f",
+      "sri": "sha256-c8NiX9qtuURDEZEpTb+qTzioePqgPxWpF4Y76cMR4E8=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/mod.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native.rs",
+      "size": 14551,
+      "sha256": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691",
+      "sri": "sha256-MZK+a+zMEQzW2qIttBLg+QaFlX7FGzxxEDt44jmXhpE=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/native.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/native_tests.rs",
+      "size": 23475,
+      "sha256": "75c4bf5ec47d0d64d3d8e51db0989e708d1474b1bb41a667098bd645394145fc",
+      "sri": "sha256-dcS/XsR9DWTT2OUdsJiecI0UdLG7QaZnCYvWRTlBRfw=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/native_tests.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/perplexity.rs",
+      "size": 2266,
+      "sha256": "5e3b2ad655bbd78f32a23c9d45291e01d1607266ed532d86d9ef3dcb7f182d59",
+      "sri": "sha256-Xjsq1lW7148yojydRSkeAdFgcmbtUy2G2e89y38YLVk=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/perplexity.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/registry.rs",
+      "size": 32782,
+      "sha256": "0919201dce5658506aa59d03d14b2a7db7891ebb1070d4ad106937c5453c17e9",
+      "sri": "sha256-CRkgHc5WWFBqpZ0D0UsqfbeJHrsQcNStEGk3xUU8F+k=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/registry.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_amphetamine.rs",
+      "size": 24493,
+      "sha256": "c54ead77b5691cd0f4ead4826e45d8b5de5d486c6ba382b765ca4ea040c2a0c7",
+      "sri": "sha256-xU6td7VpHND06tSCbkXYtd5dSGxro4K3ZcpOoEDCoMc=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_amphetamine.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_audio_device.rs",
+      "size": 53451,
+      "sha256": "ce22d402985fbfe61c6191ad5ce34c6b924c8b6794d4c7c4eea130f020d3fed9",
+      "sri": "sha256-ziLUAphfv+YcYZGtXONMa5JMi2eU1MfE7qEw8CDT/tk=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_audio_device.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.json",
+      "size": 71862,
+      "sha256": "6cba59a7a6ec10dbe985c8fa4f4be82e4b2495b3718fd9a9a8dd7b3169e977e7",
+      "sri": "sha256-bLpZp6bsENvphcj6T0voLksklbNxj9mpqN17MWnpd+c=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_catalog.json"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "size": 6839,
+      "sha256": "651a16df484f42a827ac69e209e80d09cad868232d1953d241652a4a39481e16",
+      "sri": "sha256-ZRoW30hPQqgnrGniCegNCcrYaCMtGVPSQWUqSjlIHhY=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_catalog.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_cleanshotx.rs",
+      "size": 60002,
+      "sha256": "d1b6a6c2660ca155351e454f5d92f4bddb113d0fb692b8e62566acb73823e547",
+      "sri": "sha256-0bamwmYMoVU1HkVPXZL0vdsRPQ+2krjmJWastzgj5Uc=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_cleanshotx.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_color_picker.rs",
+      "size": 107596,
+      "sha256": "84c91a77afabce2d7f83eeb3516ae4e769397ad0612fc69d0bb8805fc5eeb27b",
+      "sri": "sha256-hMkad6+rzi1/g+6zUWrk52k5etBhL8adC7iAX8Xusns=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_color_picker.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_color_picker_LICENSE.txt",
+      "size": 1082,
+      "sha256": "18a369920eb663815f25ea3d8f32f1c0ac5ee131c41d66f90898dc00bb244ba3",
+      "sri": "sha256-GKNpkg62Y4FfJeo9jzLxwKxe4THEHWb5CJjcALskS6M=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_color_picker_LICENSE.txt"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_color_picker_names.json",
+      "size": 74196,
+      "sha256": "932bbf453227a9bac21d563f64f5613214cb21899cdfc751dd687dd3dd66af55",
+      "sri": "sha256-kyu/RTInqbrCHVY/ZPVhMhTLIYmc38dR3Wh9091mr1U=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_color_picker_names.json"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_gif_search.rs",
+      "size": 82236,
+      "sha256": "6c883ab32ee0071eb5b3f8fdbbbdaba39f81ad225298223cefdcdafbfe2536da",
+      "sri": "sha256-bIg6sy7gBx61s/j9u72ro5+BrSJSmCI879za+/4lNto=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_gif_search.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_google_calendar.rs",
+      "size": 59849,
+      "sha256": "918668345d84d39712fbb47d64d6c1680a535eb35820c2b709766da4638c71e4",
+      "sri": "sha256-kYZoNF2E05cS+7R9ZNbBaApTXrNYIMK3CXZtpGOMceQ=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_google_calendar.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_google_search.rs",
+      "size": 23153,
+      "sha256": "a55393295893e049b522e0255ae95374e40e40a1a24a2c3c1e7f58cd517de259",
+      "sri": "sha256-pVOTKViT4Em1IuAlWulTdOQOQKGiSiw8Hn9YzVF94lk=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_google_search.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_perplexity.rs",
+      "size": 2348,
+      "sha256": "b0b77197d3029ee69aea2d39a27882e5df41dcdc45056e16b09c839bc8b3b2c8",
+      "sri": "sha256-sLdxl9MCnuaa6i05oniC5d9B3NxFBW4WsJyDm8izssg=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_perplexity.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_port_manager.rs",
+      "size": 41352,
+      "sha256": "6ff4c7b759ec4a3db8c069396afc8cd3335db1e17ea1bf9dd99eb20ee5387d7c",
+      "sri": "sha256-b/THt1nsSj24wGk5avyM0zNdseF+ob+d2Z6yDuU4fXw=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_port_manager.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "size": 3110,
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+      "sri": "sha256-35ZnW6kWo9cLjg5dp296lCLSOMw/vjpaYXj+8hZipqA=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_runtime.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_sdk.rs",
+      "size": 6755,
+      "sha256": "4f987346f863db9a7bd6aa1d5a99e149925dc69a44d629727ccc80a567cd27c2",
+      "sri": "sha256-T5hzRvhj25p71qodWpnhSZJdxppE1ilyfMyApWfNJ8I=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_sdk.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_speedtest.rs",
+      "size": 19882,
+      "sha256": "87feae9abbe037fda774c5ad8ba0849800bdc255e4b23fd0eb16112a143545dc",
+      "sri": "sha256-h/6umrvgN/2ndMWti6CEmAC9wlXksj/Q6xYRKhQ1Rdw=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_speedtest.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/extensions/v2_timers.rs",
+      "size": 72472,
+      "sha256": "be54fa165023603e81d90d53a27d25ba697548d7edf88504d820b0d2fa2ee61a",
+      "sri": "sha256-vlT6FlAjYD6B2Q1Ton0luml1SNft+IUE2CCw0vou5ho=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/extensions/v2_timers.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/launcher/clipboard.rs",
+      "size": 32045,
+      "sha256": "b76fc181e2685d5025a117fc2b53d8c166dc32cdded4651359d42c5bb78a6706",
+      "sri": "sha256-t2/BgeJoXVAloRf8K1PYwWbcMs3e1GUTWdQsW7eKZwY=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/launcher/clipboard.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/launcher/mod.rs",
+      "size": 51257,
+      "sha256": "88a0a96d91b91bc2d588f0aac76b120564dad170330c0db79f038d3db8ac638c",
+      "sri": "sha256-iKCpbZG5G8LViPCqx2sSBWTa0XAzDA23nwONPbisY4w=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/launcher/mod.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/mod.rs",
+      "size": 9585,
+      "sha256": "4dd4befe2d911dbf869e063e7574e0750ae5f0ee74e6a2a9026e531eb703b4ee",
+      "sri": "sha256-TdS+/i2RHb+GngY+dXTgdQrl8O505qKpAm5THrcDtO4=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/mod.rs"
+    },
+    {
+      "path": "fixtures/beta/src-tauri/src/native_core/platform.rs",
+      "size": 28906,
+      "sha256": "75fa7ce4204edbbdb0f4a5410895b32239939b707256c484dc3c4f9de390b5a1",
+      "sri": "sha256-dfp85CBO272w9KVBCJWzIjmTm3ByVsSE3DxPneOQtaE=",
+      "origin": "Tezbar git object fd300e276356587726566026f072563eb9c34cb1:src-tauri/src/native_core/platform.rs"
+    },
+    {
+      "path": "fixtures/current/src/renderer/CommandBar.tsx",
+      "size": 214953,
+      "sha256": "7406c056698f7e177bec6efbefa2a7f98d84183746c405aaaaf98599ef0268a5",
+      "sri": "sha256-dAbAVmmPfhd77G7776Kn+Y2EGDdGxAWqqvmFme8CaKU=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/CommandBar.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/ExtensionsSettingsTab.tsx",
+      "size": 39443,
+      "sha256": "8ec48266f67b957332be0dc08c0a7e37f9884b148e3199b91185efdd47f9dd39",
+      "sri": "sha256-jsSCZvZ7lXMyvg3AjAp+N/mISxSOMZm5EYXv3Uf53Tk=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/ExtensionsSettingsTab.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/ExtensionsView.test.ts",
+      "size": 10956,
+      "sha256": "c3472cda741fbc3227cd0e837c951d4f7343f4d6613556dff69f30189344afa4",
+      "sri": "sha256-w0cs2nQfvDInzQ6DfJUdT3ND9NZhNVbf9p8wGJNEr6Q=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/ExtensionsView.test.ts"
+    },
+    {
+      "path": "fixtures/current/src/renderer/ExtensionsView.tsx",
+      "size": 39341,
+      "sha256": "8eb49982bf0613d81dbde83c21aa76b95f62c534bbdd0de37c6e5377f9e95624",
+      "sri": "sha256-jrSZgr8GE9gdveg8Iap2uV9ixTS73Q3jfG5Td/npViQ=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/ExtensionsView.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/OnboardingView.tsx",
+      "size": 63950,
+      "sha256": "5a034b960c95bfca571c83725ce0ba43c465aebf211a58c26c904833a110bff7",
+      "sri": "sha256-WgNLlgyVv8pXHINyXOC6Q8Rlrr8hGljCbJBIM6EQv/c=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/OnboardingView.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/SettingsView.tsx",
+      "size": 139159,
+      "sha256": "9cbf306857a2327f2f9c5e91f3414503425f5f9d48794fdb096bd5f78149f2d0",
+      "sri": "sha256-nL8waFeiMn8vnF6R80FFA0JfX51IeU/bCWvV94FJ8tA=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/SettingsView.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/extensionCatalogState.test.ts",
+      "size": 6287,
+      "sha256": "50954967b9330e6119d66482a900e25148254db61bc51b7374556e7a5185c396",
+      "sri": "sha256-UJVJZ7kzDmEZ1mSCqQDiUUglTbYbxRtzdFVuelGFw5Y=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/extensionCatalogState.test.ts"
+    },
+    {
+      "path": "fixtures/current/src/renderer/extensionCatalogState.ts",
+      "size": 5314,
+      "sha256": "e304162b5ce12312a53b90556b769c8641bdfc4be6a9ba93fb2a5712e4186042",
+      "sri": "sha256-4wQWK1zhIxKlO5BVa3achkG9/EvmqbqT+ypXEuQYYEI=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/extensionCatalogState.ts"
+    },
+    {
+      "path": "fixtures/current/src/renderer/extensionImages.ts",
+      "size": 2867,
+      "sha256": "053b98b523ed3ae06957d5eb84b0c4243db5ef4725614580e498ead7c53a518a",
+      "sri": "sha256-BTuYtSPtOuBpV9XrhLDEJD2170clYUWA5Jjq18U6UYo=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/extensionImages.ts"
+    },
+    {
+      "path": "fixtures/current/src/renderer/launcherIcons.tsx",
+      "size": 15363,
+      "sha256": "559437518e037c71ec62f971c31143f9c5b7bf0dc23ddeb2129e99bd60625813",
+      "sri": "sha256-VZQ3UY4DfHHsYvlxwxFD+cW3vw3CPd6yEp6ZvWBiWBM=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/launcherIcons.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/pinnedCommands.ts",
+      "size": 5064,
+      "sha256": "41f68568a5b570598a78ca3fe365d70b5165cf77c4a580c227deb21709f94a72",
+      "sri": "sha256-QfaFaKW1cFmKeMo/42XXC1Flz3fEpYDCJ96yFwn5SnI=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/pinnedCommands.ts"
+    },
+    {
+      "path": "fixtures/current/src/renderer/src/raycast-api/detail-runtime.tsx",
+      "size": 23478,
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+      "sri": "sha256-Mu7LUIkeDygr09eNijgZPsJFQL9ww/3I5DodNoyX1Uw=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/src/raycast-api/detail-runtime.tsx"
+    },
+    {
+      "path": "fixtures/current/src/renderer/src/raycast-api/index.tsx",
+      "size": 7419,
+      "sha256": "7fc8413a72b92e8f88b0939cd93f91624018fe0765baa1e71b38b86f8cc77a64",
+      "sri": "sha256-f8hBOnK5Lo+IsJOc2T+RYkAY/gdluqHnGzi4b4zHemQ=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src/renderer/src/raycast-api/index.tsx"
+    },
+    {
+      "path": "fixtures/current/src-tauri/Cargo.toml.fixture",
+      "size": 2159,
+      "sha256": "285114522ed1c0ceb3c8acd9950662d34ffbf97ce3effc04c9b498e258339fbe",
+      "sri": "sha256-KFEUUi7RwM6zyKzZlQZi00/7+Xzj7/wEybSY4lgzn74=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/Cargo.toml"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/catalog.rs",
+      "size": 23042,
+      "sha256": "0ac68124a5c77cf7ac962d5a59f0762d52fb3f0f85c571c9d15591432b17aa04",
+      "sri": "sha256-CsaBJKXHfPesli1aWfB2LVL7Pw+FxXHJ0VWRQysXqgQ=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/catalog.rs"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/mod.rs",
+      "size": 6248,
+      "sha256": "73c3625fdaadb944431191294dbfaa4f38a878faa03f15a917863be9c311e04f",
+      "sri": "sha256-c8NiX9qtuURDEZEpTb+qTzioePqgPxWpF4Y76cMR4E8=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/mod.rs"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/native.rs",
+      "size": 14551,
+      "sha256": "3192be6beccc110cd6daa22db412e0f90685957ec51b3c71103b78e239978691",
+      "sri": "sha256-MZK+a+zMEQzW2qIttBLg+QaFlX7FGzxxEDt44jmXhpE=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/native.rs"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/registry.rs",
+      "size": 35005,
+      "sha256": "160442cf04a65c0547ddea54149ff5a98c26572eb3aa53eb8c92a03f6406ab31",
+      "sri": "sha256-FgRCzwSmXAVH3epUFJ/1qYwmVy6zqlPrjJKgP2QGqzE=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/registry.rs"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/v2_catalog.json",
+      "size": 71655,
+      "sha256": "a9f82ddd782dc56b3ed43b9d4d51651ce10a51a368a7befc942f200b2601e955",
+      "sri": "sha256-qfgt3XgtxWs+1DudTVFlHOEKUaNop778lC8gCyYB6VU=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/v2_catalog.json"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/v2_catalog.rs",
+      "size": 7008,
+      "sha256": "de6e471f443b2888a5d5faa55e30c130003d182d22286f10e841027cdcd0ae96",
+      "sri": "sha256-3m5HH0Q7KIil1fqlXjDBMAA9GC0iKG8Q6EECfNzQrpY=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/v2_catalog.rs"
+    },
+    {
+      "path": "fixtures/current/src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "size": 3110,
+      "sha256": "df96675ba916a3d70b8e0e5da76f7a9422d238cc3fbe3a5a6178fef21662a6a0",
+      "sri": "sha256-35ZnW6kWo9cLjg5dp296lCLSOMw/vjpaYXj+8hZipqA=",
+      "origin": "Tezbar git object fe71ca87f21ac4ff31505010c228f8abda0f2a89:src-tauri/src/native_core/extensions/v2_runtime.rs"
+    },
+    {
+      "path": "fixtures/library/package/LICENSE",
+      "size": 1082,
+      "sha256": "2d0d2dd26bee672a2981c6d94ae71506011fdabbc54796a126476556c0b71875",
+      "sri": "sha256-LQ0t0mvuZyopgcbZSucVBgEf2rvFR5ahJkdlVsC3GHU=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/library/package/README.md",
+      "size": 38478,
+      "sha256": "c3862d7a1cceda5723ea7181b57b27b0b6bfb5b5befb969406cd1645cc27eeed",
+      "sri": "sha256-w4YtehzO2lcj6nGBtXsnsLa/tbW++5aUBs0WRcwn7u0=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/library/package/dist/index.d.mts",
+      "size": 7909,
+      "sha256": "0fcb648f4061f9e67603d22b76ecbdc3c3c02eb2d0d346f7d8fddb4c872b6871",
+      "sri": "sha256-D8tkj0Bh+eZ2A9Irduy9w8PALrLQ00b32P3bTIcraHE=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/library/package/dist/index.mjs",
+      "size": 59650,
+      "sha256": "26a14c07618ba8b2398db8525d6e6ca0a5696d4d4b4427379aeda5afbaf26377",
+      "sri": "sha256-JqFMB2GLqLI5jbhSXW5soKVpbU1LRCc3mu2lr7ryY3c=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/library/package/package.json",
+      "size": 945,
+      "sha256": "b23ddf9ac2d85082b317ec6847ad17d0bc1a278c3f31600e528df8a56ab9807a",
+      "sri": "sha256-sj3fmsLYUIKzF+xoR60X0LwaJ4w/MWAOUo34pWq5gHo=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/library/registry-1.3.0.json",
+      "size": 2123,
+      "sha256": "c4c7e2511cb795eb406c1c9721fce54ef0ad92ee0399e831d685de3a88fcd292",
+      "sri": "sha256-xMfiURy3letAbByXIfzlTvCtku4Dmegx1oXeOoj80pI=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/library/toon-format-toon-1.3.0.tgz",
+      "size": 26702,
+      "sha256": "87f3755ab4cda51ca220a37f3ed2d37ce9f65bc78096f61e765955aabd5ed760",
+      "sri": "sha256-h/N1WrTNpRyiIKN/PtLTfOn2W8eAlvYedllVqr1e12A=",
+      "origin": "npm:@toon-format/toon@1.3.0; exact tarball, extracted member or registry response as named"
+    },
+    {
+      "path": "fixtures/original/LICENSE",
+      "size": 1064,
+      "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+      "sri": "sha256-f3J/iyDN0OZfhOcLnKwvzjN9zs7k3IiVXrAS6ifwJ1U=",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/LICENSE"
+    },
+    {
+      "path": "fixtures/original/extensions/json-to-toon-converter/LICENSE.http-status.txt",
+      "size": 140,
+      "sha256": "cc1c633cbe5a800f0265e2c2c1774e08f5672ebe30f8e7752ad3c3e5332e1c84",
+      "sri": "sha256-zBxjPL5agA8CZeLCwXdOCPVnLr4w+Od1KtPD5TMuHIQ=",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/json-to-toon-converter/LICENSE",
+      "kind": "recorded HTTP status and request URL; not upstream license text"
+    },
+    {
+      "path": "fixtures/original/extensions/json-to-toon-converter/assets/extension-icon.png",
+      "size": 159623,
+      "sha256": "a0d60a4ee7f9074dc52ad478a89e11a4b13e244eff9863d45cf2c69081a1a384",
+      "sri": "sha256-oNYKTuf5B03FKtR4qJ4RpLE+JE7/mGPUXPLGkIGho4Q=",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/json-to-toon-converter/assets/extension-icon.png"
+    },
+    {
+      "path": "fixtures/original/extensions/json-to-toon-converter/package.json",
+      "size": 2364,
+      "sha256": "1d1f04837a78841d4145333b88de9892235fec2b2dd860ead65bf5cdd9f1dc30",
+      "sri": "sha256-HR8Eg3p4hB1BRTM7iN6YkiNf7Cst2GDq1lv1zdnx3DA=",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/json-to-toon-converter/package.json"
+    },
+    {
+      "path": "fixtures/original/extensions/json-to-toon-converter/src/convert-json.ts",
+      "size": 1363,
+      "sha256": "47770b2fde11cf2508fefd8267f404e421b865c585ae42891975386505e2e9dd",
+      "sri": "sha256-R3cLL94RzyUI/v2CZ/QE5CG4ZcWFrkKJGXU4ZQXi6d0=",
+      "origin": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/json-to-toon-converter/src/convert-json.ts"
+    },
+    {
+      "path": "fixtures/own/.gitignore",
+      "size": 68,
+      "sha256": "b027adcbb6131ef49be335e9a699657351ca3d5bb2b474379634d1714f5a585b",
+      "sri": "sha256-sCety7YTHvSb4zXpppllc1HKPVuytHQ3ljTRcU9aWFs=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:.gitignore"
+    },
+    {
+      "path": "fixtures/own/.prettierrc",
+      "size": 48,
+      "sha256": "af858765de11954366be23467b95bae5e1a86818411c6723df7542cea9ffd521",
+      "sri": "sha256-r4WHZd4RlUNmviNGe5W65eGoaBhBHGcj33VCzqn/1SE=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:.prettierrc"
+    },
+    {
+      "path": "fixtures/own/CHANGELOG.md",
+      "size": 105,
+      "sha256": "d458b23c2b6e8077e96dbe37b11a4c639cc498e6c775e28c85514c5c7f8fa3df",
+      "sri": "sha256-1FiyPCtugHfpbb43sRpMY5zEmObHdeKMhVFMXH+Po98=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:CHANGELOG.md"
+    },
+    {
+      "path": "fixtures/own/LICENSE",
+      "size": 1087,
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81",
+      "sri": "sha256-HX29vNT+FN+ggzT6sgv/rSPBKQ8ZV5KjpEINrfmRL4E=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:LICENSE"
+    },
+    {
+      "path": "fixtures/own/README.md",
+      "size": 71,
+      "sha256": "69d493a95b6f193b192a4e85c1926e672f9fd6b685cc284c05ed5dfa5cac80fc",
+      "sri": "sha256-adSTqVtvGTsZKk6FwZJuZy+f1raFzChMBe1d+lysgPw=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:README.md"
+    },
+    {
+      "path": "fixtures/own/assets/extension-icon.png",
+      "size": 159623,
+      "sha256": "a0d60a4ee7f9074dc52ad478a89e11a4b13e244eff9863d45cf2c69081a1a384",
+      "sri": "sha256-oNYKTuf5B03FKtR4qJ4RpLE+JE7/mGPUXPLGkIGho4Q=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:assets/extension-icon.png"
+    },
+    {
+      "path": "fixtures/own/eslint.config.js",
+      "size": 165,
+      "sha256": "ee5c9d0b4a4ad216ab018ae100e4cdea8bb620d554377a062c989ece90a8683c",
+      "sri": "sha256-7lydC0pK0harAYrhAOTN6ou2INVUN3oGLJiezpCoaDw=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:eslint.config.js"
+    },
+    {
+      "path": "fixtures/own/metadata/json-to-toon-converter-1.png",
+      "size": 968545,
+      "sha256": "8e06a6901abbc8e601c7007fd20ed68f4e7aaa5d49645703192eea6beb64123b",
+      "sri": "sha256-jgamkBq7yOYBxwB/0g7Wj056ql1JZFcDGS7qa+tkEjs=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:metadata/json-to-toon-converter-1.png"
+    },
+    {
+      "path": "fixtures/own/package-lock.json",
+      "size": 68307,
+      "sha256": "dc218c9b390c2203ecd5e00391b0bdc8825edd2faaf6e27f0682c2ff7d797d15",
+      "sri": "sha256-3CGMmzkMIgPs1eADkbC9yIJe3S+q9uJ/BoLC/315fRU=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:package-lock.json"
+    },
+    {
+      "path": "fixtures/own/package.json",
+      "size": 2492,
+      "sha256": "b85452ca394faa25fb0426e3a1326dca5f4c8e703b452f901be69a329b0163fa",
+      "sri": "sha256-uFRSyjlPqiX7BCbjoTJtyl9MjnA7RS+QG+aaMpsBY/o=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:package.json"
+    },
+    {
+      "path": "fixtures/own/raycast-env.d.ts",
+      "size": 950,
+      "sha256": "33bd5d1f1b817a0d6c8cf249a3b165b96bfadb093b466dbd0030de6694cac9a3",
+      "sri": "sha256-M71dHxuBeg1sjPJJo7FluWv62wk7Rm29ADDeZpTKyaM=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:raycast-env.d.ts"
+    },
+    {
+      "path": "fixtures/own/src/convert-json.ts",
+      "size": 1363,
+      "sha256": "47770b2fde11cf2508fefd8267f404e421b865c585ae42891975386505e2e9dd",
+      "sri": "sha256-R3cLL94RzyUI/v2CZ/QE5CG4ZcWFrkKJGXU4ZQXi6d0=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:src/convert-json.ts"
+    },
+    {
+      "path": "fixtures/own/test/smoke.test.ts",
+      "size": 464,
+      "sha256": "ba2f34f35ecb8cb8c7806919ee99f4e10898670a63e9457c20077593d9c4e20e",
+      "sri": "sha256-ui80817LjLjHgGkZ7pn04QiYZwpj6UV8IAd1k9nE4g4=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:test/smoke.test.ts"
+    },
+    {
+      "path": "fixtures/own/tsconfig.json",
+      "size": 525,
+      "sha256": "bb151e8c2e5442f6f9e42b27c08d88b0f7d2c5c127268ce0aedab2ef964b1eee",
+      "sri": "sha256-uxUejC5UQvb55CsnwI2IsPfSxcEnJozgrtqy75ZLHu4=",
+      "origin": "git:https://github.com/almatkai/json-to-toon-converter@f72d105582202089268d31ab0d0314e5f1eef057:tsconfig.json"
+    },
+    {
+      "path": "tests/oracle-native.json",
+      "size": 507673,
+      "sha256": "b81b908521dcc8ef7292bc13670a388e44552976797bc3280e691b3728d6465f",
+      "sri": "sha256-uBuQhSHcyO9ykrwTZwo4jkRVKXZ5e8MoDmkbNyjWRl8=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "tests/oracle.json",
+      "size": 507582,
+      "sha256": "49c749445f5dd45c56f7d4ceed7422b7dc45e0c201fd863ad3f2ada6e770e5e1",
+      "sri": "sha256-ScdJRF9d1FxW99TO7XQit9xF4MIB/YY60/Ktpudw5eE=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "tests/parity.rs",
+      "size": 2078,
+      "sha256": "efb8639fb7c2424e6cb22c9db990db60bfd6c07301232f451e51a464aa8d5af8",
+      "sri": "sha256-77hjn7fCQk5ssiyduZDbYL/WwHMBIy9FHlGkZKqNWvg=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "tests/source-flows.json",
+      "size": 5228,
+      "sha256": "304226c7195120b09f887990d9b6b325779238e43367af244568ecc8b261c717",
+      "sri": "sha256-MEImxxlRILCfiHmQ2bazJXeSOOQzZ68kRWjsyLJhxxc=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "tests/surfaces.json",
+      "size": 900,
+      "sha256": "b2cdde3ab32af3db1b2855bb9fcb355a97d5e45c24c4bd36f0b1185c72beada2",
+      "sri": "sha256-ss3eOrMq89sbKFW7n8s1WpfV5FwkxL028LEYXHK+raI=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "assets/extension-icon.png",
+      "size": 159623,
+      "sha256": "a0d60a4ee7f9074dc52ad478a89e11a4b13e244eff9863d45cf2c69081a1a384",
+      "sri": "sha256-oNYKTuf5B03FKtR4qJ4RpLE+JE7/mGPUXPLGkIGho4Q=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/beta-detail-button-prerequisite.patch",
+      "size": 398,
+      "sha256": "cd32c8bb7a9836805c2246a24a94546246ca1b8b62effe6a1bdfe5ad30ebe260",
+      "sri": "sha256-zTLIu3qYNoBcIkaiSpRUYkbKG4ti7/5qG9/lrTDr4mA=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/beta-number-dependency.patch",
+      "size": 213,
+      "sha256": "65fc54f8d05840c6ddcaa5484bfa87c4ea3ad9633ebb6cc513e314d19d789441",
+      "sri": "sha256-ZfxU+NBYQMbdyqVIS/qHxOo62WM+u2zFE+MU0Z14lEE=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/beta-registration.patch",
+      "size": 4034,
+      "sha256": "38322aab55cee44c7d79cad3c15e3a5c27d71caba11de3ef16d82ad3bcf05f8f",
+      "sri": "sha256-ODIqq1XO5Ex9ecrTwV46XCfXHKuhHePvFtgq07zwX48=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/current-detail-button-prerequisite.patch",
+      "size": 398,
+      "sha256": "cd32c8bb7a9836805c2246a24a94546246ca1b8b62effe6a1bdfe5ad30ebe260",
+      "sri": "sha256-zTLIu3qYNoBcIkaiSpRUYkbKG4ti7/5qG9/lrTDr4mA=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/current-icon-prerequisite.patch",
+      "size": 433,
+      "sha256": "2b75962553015786837b8c4520f98e219f718628885d28d00ae7f22eefda8be0",
+      "sri": "sha256-K3WWJVMBV4aDe4xFIPmOIZ9xhiiIXSjQCufyLu/ai+A=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/current-number-dependency.patch",
+      "size": 213,
+      "sha256": "65fc54f8d05840c6ddcaa5484bfa87c4ea3ad9633ebb6cc513e314d19d789441",
+      "sri": "sha256-ZfxU+NBYQMbdyqVIS/qHxOo62WM+u2zFE+MU0Z14lEE=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    },
+    {
+      "path": "integration/current-registration.patch",
+      "size": 4034,
+      "sha256": "13c9005bb684265ec9e817c396e3c7f906f3f09a3f907bdcff59be809bb3c98b",
+      "sri": "sha256-E8kAW7aEJl7J6BfDluPH+Qbz8Jo/kHvc/1m+gJuzyYs=",
+      "origin": "native port artifact / deterministic recorder fixture"
+    }
+  ]
+}

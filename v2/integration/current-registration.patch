@@ -1,0 +1,136 @@
+--- a/src-tauri/src/native_core/extensions/mod.rs
++++ b/src-tauri/src/native_core/extensions/mod.rs
+@@ -14,6 +14,8 @@
+ mod v2_port_manager;
+ mod v2_runtime;
+ mod v2_sdk;
++#[path = "../../../native-extensions/json-to-toon-converter/adapter.rs"]
++mod v2_json_to_toon;
+ mod v2_speedtest;
+ mod v2_timers;
+ 
+--- a/src-tauri/src/native_core/extensions/v2_runtime.rs
++++ b/src-tauri/src/native_core/extensions/v2_runtime.rs
+@@ -10,7 +10,7 @@
+     match value {
+         "amphetamine" | "audio-device" | "cleanshotx" | "color-picker" | "gif-search"
+         | "google-calendar" | "google-search" | "port-manager" | "speedtest" | "timers"
+-        | "perplexity" => Some(value),
++        | "perplexity" | "json-to-toon-converter" => Some(value),
+         _ => None,
+     }
+ }
+@@ -19,6 +19,7 @@
+ }
+ pub(super) fn commands(slug: &str) -> &'static [&'static str] {
+     match slug {
++        "json-to-toon-converter" => super::v2_json_to_toon::commands(),
+         "amphetamine" => super::v2_amphetamine::commands(),
+         "audio-device" => super::v2_audio_device::commands(),
+         "cleanshotx" => super::v2_cleanshotx::commands(),
+@@ -45,6 +46,7 @@
+     state: &mut Value,
+ ) -> CoreResult {
+     match slug {
++        "json-to-toon-converter" => super::v2_json_to_toon::handle(ctx, command, operation, payload, state).await,
+         "amphetamine" => {
+             super::v2_amphetamine::handle(ctx, command, operation, payload, state).await
+         }
+--- a/src-tauri/src/native_core/extensions/v2_catalog.json
++++ b/src-tauri/src/native_core/extensions/v2_catalog.json
+@@ -2589,5 +2589,83 @@
+         "state": "not-run"
+       }
+     ]
+-  }
++  },
++{
++  "schemaVersion": 2,
++  "id": "com.tezbar.native.json-to-toon-converter",
++  "slug": "json-to-toon-converter",
++  "name": "JSON to TOON Converter",
++  "version": "0.1.0",
++  "description": "Convert JSON data into TOON format instantly. Original Raycast extension by meshal; native adaptation by Tezbar.",
++  "icon": "/extensions/icons/json-to-toon-converter.png",
++  "runtime": "rust",
++  "replaces": [
++    "raycast.json-to-toon-converter"
++  ],
++  "platforms": [
++    "macOS",
++    "Windows"
++  ],
++  "preferences": [
++    {
++      "name": "defaultAction",
++      "type": "dropdown",
++      "required": false,
++      "title": "Default Action",
++      "description": "Choose whether to copy the result or paste it to the active application by default.",
++      "default": "copy",
++      "data": [
++        {
++          "title": "Copy to Clipboard",
++          "value": "copy"
++        },
++        {
++          "title": "Paste to Active App",
++          "value": "paste"
++        }
++      ]
++    },
++    {
++      "name": "inputSource",
++      "type": "dropdown",
++      "required": false,
++      "title": "Input Source",
++      "description": "Choose whether to try selected text first or always use clipboard.",
++      "default": "auto",
++      "data": [
++        {
++          "title": "Auto (Selection then Clipboard)",
++          "value": "auto"
++        },
++        {
++          "title": "Clipboard Only",
++          "value": "clipboard"
++        }
++      ]
++    }
++  ],
++  "commands": [
++    {
++      "name": "convert-json",
++      "title": "Convert JSON",
++      "description": "Convert JSON to TOON format",
++      "platforms": [
++        "macOS",
++        "Windows"
++      ],
++      "runtime": "rust",
++      "mode": "no-view"
++    }
++  ],
++  "verification": [
++    {
++      "platform": "macOS",
++      "state": "not-run"
++    },
++    {
++      "platform": "Windows",
++      "state": "not-run"
++    }
++  ]
++}
+ ]
+--- a/src-tauri/src/native_core/extensions/v2_catalog.rs
++++ b/src-tauri/src/native_core/extensions/v2_catalog.rs
+@@ -175,7 +175,7 @@
+     #[test]
+     fn bundled_ids_and_coverage_are_consistent() {
+         let items = manifests();
+-        assert_eq!(items.len(), 11);
++        assert_eq!(items.len(), 12);
+         for item in items {
+             let slug = item["slug"].as_str().unwrap();
+             assert_eq!(item["id"], v2_runtime::canonical_id(slug));

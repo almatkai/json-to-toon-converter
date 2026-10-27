@@ -1,0 +1,27 @@
+[
+  {
+    "actions": [
+      {
+        "id": "fixture-retry-action",
+        "kind": "action",
+        "title": "Retry delivery (may repeat the effect)"
+      }
+    ],
+    "message": "Delivery is unconfirmed and may already have occurred. Retry only if you accept a duplicate copy or paste. This session retains the same converted bytes; it will not read your selection or clipboard again.",
+    "mode": "view",
+    "ok": true,
+    "root": {
+      "children": [],
+      "props": {
+        "markdown": "Delivery is unconfirmed and may already have occurred. Retry only if you accept a duplicate copy or paste. This session retains the same converted bytes; it will not read your selection or clipboard again."
+      },
+      "type": "Detail"
+    },
+    "title": "JSON to TOON Converter"
+  },
+  {
+    "message": "Converted! TOON format copied to clipboard",
+    "mode": "no-view",
+    "ok": true
+  }
+]

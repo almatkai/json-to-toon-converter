@@ -1,0 +1,6 @@
+/target/
+/.work/
+/harness/target/
+/harness/generated/
+!fixtures/library/package/dist/
+!fixtures/library/package/dist/**
